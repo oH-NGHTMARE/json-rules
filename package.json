@@ -1,0 +1,32 @@
+{
+  "name": "json-rules",
+  "version": "1.0.0",
+  "description": "Library that will allow the validation of objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oH-NGHTMARE/json-rules.git"
+  },
+  "keywords": [
+    "Data",
+    "Validation",
+    "Excel",
+    "Json",
+    "Table"
+  ],
+  "author": "Christopher Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oH-NGHTMARE/json-rules/issues"
+  },
+  "homepage": "https://github.com/oH-NGHTMARE/json-rules#readme",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "tap": "^14.0.0"
+  }
+}
