@@ -4,12 +4,14 @@
 
 <b>Available Methods</b>
 
-1. <h1>.isNull()</h1>
-2. <h1>.isNotNull()</h1>
+<ul>
+    <li>isNull</li>
+    <li>isNotNull</li>
+</ul>
 
 
 
-# .isNull()
+> .isNull()
 
 <p>Attach this method to an object then pass in the column name you want to test.</p>
 
@@ -24,7 +26,7 @@ const user = {
 user.isNull('Age Restriction') // Output = true
 ```
 
-# .isNotNull()
+> .isNotNull()
 
 <p>Attach this method to an object then pass in the column name you want to test.</p>
 
