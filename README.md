@@ -11,7 +11,7 @@
 
 
 
-> .isNull()
+> <b>.isNull()</b>
 
 <p>Attach this method to an object then pass in the column name you want to test.</p>
 
@@ -26,7 +26,7 @@ const user = {
 user.isNull('Age Restriction') // Output = true
 ```
 
-> .isNotNull()
+> <b>.isNotNull()</b>
 
 <p>Attach this method to an object then pass in the column name you want to test.</p>
 

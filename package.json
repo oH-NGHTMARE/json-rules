@@ -4,7 +4,8 @@
   "description": "Library that will allow the validation of objects",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "publish": "git push origin master"
   },
   "repository": {
     "type": "git",
