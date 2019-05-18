@@ -1,6 +1,40 @@
 <b>JSON Rules</b>
 
-> Takes in a json object and runs a list of rules against it.
+> Set of methods that takes in the column name and test the rule
 
-<b>Options</b>
-1. Set a list of rules (String) [column] > [column1]
+<b>Available Methods</b>
+
+1. <h1>.isNull()</h1>
+2. <h1>.isNotNull()</h1>
+
+
+
+# .isNull()
+
+<p>Attach this method to an object then pass in the column name you want to test.</p>
+
+```
+const user = {
+    'Name': 'Chris',
+    'Age': 21,
+    'Vender': 'Tree',
+    'Age Restriction': 'NULL'
+}
+
+user.isNull('Age Restriction') // Output = true
+```
+
+# .isNotNull()
+
+<p>Attach this method to an object then pass in the column name you want to test.</p>
+
+```
+const user = {
+    'Name': 'Chris',
+    'Age': 21,
+    'Vender': 'Tree',
+    'Age Restriction': 'NULL'
+}
+
+user.isNotNull('Name') // Output = true
+```
