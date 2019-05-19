@@ -1,8 +1,8 @@
-<h2 style="text-align:center"><b>JSON Rules</b></h2> 
+<h2 style="text-align:center"><b>My JSON Rules</b></h2> 
 
 > <b>Instagram @chrisbradley.ig</b>
 
-[![npm build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](https://github.com/oH-NGHTMARE/json-rules)
+[![npm build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](https://www.npmjs.com/package/myjson-rules)
 
 > Set of methods that takes in the column name and test the rule
 
@@ -21,7 +21,7 @@
 ```
 'use strict';
 
-const jsonRules = require('json-rules');
+const jsonRules = require('myjson-rules');
 
 Object.prototype.isNull = jsonRules.isNullRule;
 Object.prototype.isNotNull = jsonRules.isNotNullRule;

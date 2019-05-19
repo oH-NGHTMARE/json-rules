@@ -1,6 +1,6 @@
 {
-  "name": "json-rules",
-  "version": "1.0.0",
+  "name": "myjson-rules",
+  "version": "1.0.1",
   "description": "Library that will allow the validation of objects",
   "main": "index.js",
   "scripts": {
