@@ -12,6 +12,31 @@
     <li>isCompareRule</li>
 </ul>
 
+> This package will allow for an ease of use system for check mass objects with miss rules.
+
+<h3>Quickstart</h3>
+
+```
+'use strict';
+
+const jsonRules = require('json-rules');
+
+Object.prototype.isNull = jsonRules.isNullRule;
+Object.prototype.isNotNull = jsonRules.isNotNullRule;
+Object.prototype.isCompare = jsonRules.isCompareRule;
+
+const user = {
+    'Name': 'Chris',
+    'Age': 21,
+    'Vender': 'Tree',
+    'Age Restriction': 'null',
+    'Age Limit': 18
+}
+
+jsonRules.setNull('null'); // Defualts to NULL (String Type) if not set
+
+console.log(user.isNotNull('Name'), user.isCompare('Age', 'Age Limit', '>'))
+```
 
 
 > <b>.isNull()</b>

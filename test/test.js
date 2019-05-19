@@ -1,7 +1,6 @@
 'use strict';
 
 const jsonRules = require('../index');
-const chalk = require('chalk');
 
 Object.prototype.isNull = jsonRules.isNullRule;
 Object.prototype.isNotNull = jsonRules.isNotNullRule;
