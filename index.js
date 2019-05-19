@@ -15,3 +15,7 @@ exports.isNullRule = function(column) {
 exports.isNotNullRule = function(column) {
     return this[`${column}`] != nullFormat;
 }
+
+exports.isCompareRule = function(column1, column2, operator) {
+    return eval(`${this[`${column1}`]} ${operator} ${this[`${column2}`]}`)
+}
