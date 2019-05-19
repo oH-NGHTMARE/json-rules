@@ -1,4 +1,6 @@
-<h2 style="text-align:center"><b>JSON Rules</b></h2> | <b>Instagram @chrisbradley.ig</b>
+<h2 style="text-align:center"><b>JSON Rules</b></h2> 
+
+> <b>Instagram @chrisbradley.ig</b>
 
 [![npm build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](https://github.com/oH-NGHTMARE/json-rules)
 
