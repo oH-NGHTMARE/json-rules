@@ -1,6 +1,6 @@
 <h1 style="text-align:center"><b>JSON Rules</b></h1>
 
-![travis build](https://img.shields.io/travis/rust-lang/rust.svg)
+[![npm build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](https://github.com/oH-NGHTMARE/json-rules)
 
 > Set of methods that takes in the column name and test the rule
 
