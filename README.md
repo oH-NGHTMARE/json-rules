@@ -1,4 +1,4 @@
-<h1 style="text-align:center"><b>JSON Rules</b></h1>
+<h2 style="text-align:center"><b>JSON Rules</b></h2> | <b>Instagram @chrisbradley.ig</b>
 
 [![npm build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](https://github.com/oH-NGHTMARE/json-rules)
 
@@ -12,7 +12,7 @@
     <li>isCompareRule</li>
 </ul>
 
-> This package will allow for an ease of use system for check mass objects with miss rules.
+> This package will allow you to check an objects key:value and apply a rule to is based of the param name.
 
 <h3>Quickstart</h3>
 
